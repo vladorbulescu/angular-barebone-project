@@ -4,8 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
+    "build": "ng build --prod",
+    "test-watch": "ng test",
+    "test-prod": "ng test --watch false --codeCoverage true",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },

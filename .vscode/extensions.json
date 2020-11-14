@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "johnpapa.angular-essentials",
+        "angular.ng-template",
+        "johnpapa.angular2",
+        "michelemelluso.code-beautifier",
+        "streetsidesoftware.code-spell-checker",
+        "eamodio.gitlens",
+        "eg2.vscode-npm-script",
+        "wayou.vscode-todo-highlight",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "pkief.material-icon-theme"
+    ]
+}

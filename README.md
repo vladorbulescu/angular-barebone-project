@@ -8,7 +8,8 @@ Key features:
 * SCSS
 * Moment.js
 * Prettier, TSLint & VScode config ecosystem
-* Basic architecture pattern with app, core and shared modules
+* Basic architecture pattern with app, core, shared and feature modules
+* Lazy loaded feature module
 * Prod build, unit tests, e2e tests
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.

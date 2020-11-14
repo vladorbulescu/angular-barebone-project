@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { SharedPipesModule } from './shared-pipes.module';
-import { SharedComponentsModule } from './shared-components.module';
-import { SharedDirectivesModule } from './shared-directives.module';
+import { SharedComponentsModule } from './modules/shared-components.module';
+import { SharedDirectivesModule } from './modules/shared-directives.module';
+import { SharedPipesModule } from './modules/shared-pipes.module';
+import { SharedServicesModule } from './modules/shared-services.module';
 
 @NgModule({
     exports: [
@@ -12,7 +13,8 @@ import { SharedDirectivesModule } from './shared-directives.module';
         FormsModule,
         SharedPipesModule,
         SharedComponentsModule,
-        SharedDirectivesModule
+        SharedDirectivesModule,
+        SharedServicesModule
     ]
 })
 export class SharedModule {}

@@ -11,6 +11,7 @@ Key features:
 * Basic architecture pattern with app, core, shared and feature modules
 * Lazy loaded feature module
 * Prod build, unit tests, e2e tests
+* Common functionalities like snackbars, dialogs, HTTP handlers, authentication etc.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
 
